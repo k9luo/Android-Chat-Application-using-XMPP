@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bubble_layout_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/bubble_layout"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble1">
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxEms="12"
+            android:layout_gravity="center"
+            android:text="Hi! new message"
+            android:textColor="@android:color/primary_text_light" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:scaleType="fitCenter"
+            android:layout_height="200dp"
+            android:src="@drawable/bubble2"
+            android:id="@+id/imageMsg" />
+    </LinearLayout>
+
+</LinearLayout>
